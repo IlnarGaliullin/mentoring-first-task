@@ -30,7 +30,7 @@
     <span class="header-1-catalog-item">Интерьер и одежда</span>
  </div>
  
- <div style="display: flex;">
+ <div style="display: flex; align-items: center;">
    <div class=form-action>
     <input class="input-1" type="text" placeholder="Поиск, например Круг зачистной">
     <button class="logo-search"><img src="/assets/logo-search.svg" alt="логотип поиска"></button>
@@ -48,7 +48,7 @@
 <div class="frame-information">
    <div class="frame-information__block">
       <img src="/assets/icon-1.svg" alt="иконка кирпичи">
-      <span class="padding-frame-information__block"><b>Большой ассортимент</b><br> строительных материалов всегда в наличии</span>
+      <span class="padding-frame-information__block"><b>Большой ассортимент</b><br> строительных материалов всегда в <br>наличии</span>
    </div>
    <div class="frame-information__block">
       <img src="/assets/icon-2.svg" alt="иконка доставка">
@@ -67,7 +67,7 @@
          <button class="item-cards__pagination-button">2</button>
          <button class="item-cards__pagination-button">3</button>
          <button class="item-cards__pagination-button">4</button>
-         <button class="item-cards__pagination-button">5</button>
+         <button style="padding-right: 4px;" class="item-cards__pagination-button">5</button>
       </div>
          <div class="item-cards__grid">
             <div class="item-cards__grid-left">
@@ -80,18 +80,41 @@
             
             <div class="item-cards__grid-right">
                   <div class="item-cards__grid-right-block-1">
-                     <span class="item-cards__grid-right-block-text-1">Эмали</span>
+                     <span>Эмали</span>
+                     <div class="item-cards__grid-right-action-1">
+                        <span style="margin-right: 16px;">Перейти в каталог</span>
+                        <a><img src="/assets/Arrow.svg" alt="стрелка"></a>
+                     </div>
                   </div>
                   <div class="item-cards__grid-right-block-2">
-                     <p class="item-cards__grid-right-block-text-2-3-4">Лакокрасочные <br> материалы</p>
+                     <span>Лакокрасочные <br> материалы</span>
+                     <div class="item-cards__grid-right-action-2">
+                        <span style="margin-right: 16px;">Перейти в каталог</span>
+                        <a><img src="/assets/Arrow.svg" alt="стрелка"></a>
+                     </div>
                   </div>
                   <div class="item-cards__grid-right-block-3">
-                     <p class="item-cards__grid-right-block-text-2-3-4">Пены, клеи и<br>герметики</p>
+                     <span>Пены, клеи и<br>герметики</span>
+                     <div class="item-cards__grid-right-action-3"> 
+                        <span style="margin-right: 16px;">Перейти в каталог</span>
+                        <a><img src="/assets/Arrow.svg" alt="стрелка"></a>
+                     </div>
                   </div>
                   <div class="item-cards__grid-right-block-4">
-                     <p class="item-cards__grid-right-block-text-2-3-4">Розетки и выключатели</p>
+                     <span>Розетки и выключатели</span>
+                     <div class="item-cards__grid-right-action-4">
+                        <span style="margin-right: 16px;">Перейти в каталог</span>
+                        <a><img src="/assets/Arrow.svg" alt="стрелка"></a>
+                     </div>
                   </div>
             </div>
          </div> 
    </div> 
 </div>      
+
+<div class="content-container-2">
+   <div class="content-container-2-text">
+      <span>Популярные товары</span>
+      <span>Посмотреть все товары</span>
+   </div>
+</div>
